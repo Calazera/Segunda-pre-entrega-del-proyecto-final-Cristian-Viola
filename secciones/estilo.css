@@ -20,30 +20,27 @@ body {
 .logo {
 	width: 200px;
 	height: 100px;
-	margin-bottom: 100px;
 	display: flex;
 	justify-content: flex-start;
 }
 
 .certificado {
 	width: 100px;
-	margin: 0px 200px 0px 700px;
+	margin: 0 auto;
 	display: flex;
 	justify-content: center;
 }
 
 .envianoscv {
 	width: 350px;
-	height: 150px;
 	display: flex;
 	justify-content: flex-end;
-	margin: 0px 0px 0px 300px;
 }
 
 .barranav {
-	width: auto;
-	height: auto;
-	margin: 50px 0px 0px 0px;
+	width: 100%;
+	height: 100%;
+	margin: 0px 0px 0px 0px;
 	padding: 0;
 }
 
@@ -119,7 +116,7 @@ nav a:hover {
 }
 
 .enlaces {
-	width: 90%;
+	width: 100%;
 	max-width: 1960px;
 	margin: 0px 5px 0px 5px;
 	padding: 5px 5px 5px 5px;
@@ -234,10 +231,7 @@ footer {
 	margin: 0px 5px 0px 120px;
 	padding: 5px 0px 5px 0px;
 	display: grid;
-	grid-template-columns: 1fr;
-	background-image: url("../imagenes/imagen6.webp");
-	background-size: contain;
-	background-repeat: no-repeat;
+	grid-template-columns: 1fr;	
 }
 
 .contenedor-trato {
