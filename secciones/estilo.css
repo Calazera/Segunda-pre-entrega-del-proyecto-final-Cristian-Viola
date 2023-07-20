@@ -1,68 +1,85 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background-color: antiquewhite;
 }
 
-.logo {
-	width: auto;
-	height: auto;
+
+.cabecera {
+	width: 95%;
+	max-width: 1960px;
+	margin: 0px 5px 0px 5px;
+	padding: 5px 5px 5px 5px;
 	display: grid;
-	grid-column: 1 / 3;
-	grid-row: 1 / 3;
-	background-color: white;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.logo {
+	width: 200px;
+	height: 100px;
+	display: flex;
 }
 
 .certificado {
 	width: 100px;
 	height: 100px;
-	display: grid;
-	grid-column: 1 / 1;
-	grid-row: 1 / 1;
-
+	display: flex;
 }
 
 .envianoscv {
+	width: 350px;
+	height: 150px;
+	display: flex;
+	justify-content: flex-end;
+	flex-direction: column-reverse;
+}
+
+.barranav {
 	width: auto;
 	height: auto;
-	display: grid;
-	grid-column: 4 / 6;
-	grid-row: 1 / 4;
+	margin: 50px 0px 0px 0px;
+	padding: 0;
 }
 
-.img-cv {
-	width: 100px;
-	height: 100px;
-	display: inline;
-	position: relative;
-	border: 5px black ;
-	margin: 10px 10px 10px 10px;
-	padding: 10px 10px 10px 10px;
-	background-color: rgb(75, 149, 247);
+.titulo-cabecera {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 45px;
+	color: rgb(85, 30, 8);
+	text-align: justify;
+	text-decoration: underline;
+	margin: 10px 5px 20px 5px;
+	padding: 20px 20px 20px 20px;
 }
 
-#banner {
-	width: 100%;
-	height: auto;
-	margin-left: 150px;
-	align-content: center;
-	display: inline;
-	background-color: rgb(75, 149, 247);
+.banner {
+	width: 95%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background-size: cover;
+	background-position: center;
 }
 
 nav a {
-	font-size: 24px;
+	font-size: 35px;
 	text-align: center;
-	display: grid;
-	color: black;
-	background-color: grey;
+	display: block;
+	color: darkred;
+	background-color: rgb(190, 192, 180);
 	padding: 10px;
 	margin: 0;
+	text-decoration: none;
 	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 nav ul {    
     list-style:none;
     font-size: 0;
-    padding: 0;
+	padding: 0;
+	border: 1px black solid;
 }
 
 nav li {
@@ -71,89 +88,141 @@ nav li {
     position: relative;
 }
 
-a:hover {
-	color: white;
-}
-
-a:active {
+nav a:active {
 	color: red;
 }
 
-main form {
-	font-size: 15px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	display: inline-block; 
-    width: 100px;
-	height: 100px;
-	padding: 10px;
-	margin: 10px;
-    position:relative;
+nav a:hover {
+	background-color: white;
 }
 
-h1 {
+.subtitulo {
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 50px;
-	color: rgb(85, 30, 8);
-	text-align: justify;
-	text-decoration: underline;
-	
-}
-
-h2 {
-	font-family: Arial, Helvetica, sans-serif;
 	font-size: 30px;
 	color: rgb(85, 30, 8);
 	text-align: justify;
-	text-decoration: underline;
+	text-decoration: none;
+	margin: 30px 10px 5px 20px;
 }
 
-h4 {
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 25px;
+.texto {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+	width: 90%;
 	color: black;
+	margin: 0px 0px 40px 20px;
+	padding: 5px;
+	text-decoration: none;
 }
 
-footer {
-	
-	background-color: rgb(75, 149, 247);
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	font-size: 10px;
-	text-align:left;
-	padding: 1px;
+.enlaces {
+	width: 90%;
+	max-width: 1960px;
+	margin: 0px 5px 0px 5px;
+	padding: 5px 5px 5px 5px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.img-cv {
+	width: 90%;
+	height: auto;
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	background-color: antiquewhite;
 }
 
 .presupuesto {
+	width: auto;
+	height: auto;
+	display: flex;
+	background-color: antiquewhite;
+}
+
+.presupuesto2 {
+	width: auto;
+	height: auto;
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	padding: 100px;
+	background-color: antiquewhite;
+}
+
+footer {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	margin: 5px 5px 10px 5px;
+	text-align:center;
+	padding: 1px;
+}
+
+.coopyright {
+	width: 95;
 	border: 1px black solid;
-	background-color: rgb(75, 149, 247);
-}
-
-a {
-	border: 1px black solid;
-	background-color: rgb(75, 149, 247);
-}
-
-.cabecera {
-	width: 100%;
-	margin: 0 auto;
-	display: grid;
-	grid-template-columns: 20% 20% 20% 20% 20%;
-  	grid-template-rows: 20% 20% 20% 20% 20%;
-}
-
-.barranav {
-	display: grid;
-	grid-column: 1 / 6;
-	grid-row: 3 / 4;
-}
-
-.titulo-cabecera {
-	display: grid;
-	grid-column: 1 / 5;
-	grid-row: 5 / 6;
+	background-color: rgb(190, 192, 180);
+	text-align: center;
+	margin: 10px 0 0 0;
 	padding: 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-family: 'Courier New', Courier, monospace
 }
+
+.formulario-cv {
+	background-color: antiquewhite;
+	display: flex;
+	width: auto;
+	height: auto;
+}
+
+.contenedor-form {
+	width: 90%;
+	max-width: 1960px;
+	margin: 0px 5px 0px 200px;
+	padding: 5px 5px 5px 5px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.texto-lista {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	list-style:none;
+	color: black;
+	margin: 2px 5px 40px 60px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+.contenedor-historia {
+	width: auto;
+	max-width: 1960px;
+	margin: 0px 5px 0px 20px;
+	padding: 5px 0px 5px 0px;
+	display: grid;
+	grid-template-columns: 1fr;
+	background-image: url("../imagenes/quienessomos-personal600x400.jpg");
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
+.texto-historia {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	width: 90%;
+	color: black;
+	margin: 0px 0px 40px 20px;
+	padding: 5px;
+	text-decoration: none;
+}
+
+
 
 /*
+
+	background-image: url("../imagenes/imagen5.jpg");
+
 nav ul {    
     list-style:none;
     font-size: 0;
@@ -182,6 +251,17 @@ nav a:hover {
 	width: 100%;
 	height: 100%;
 }
+main form {
+	font-size: 15px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	display: inline-block; 
+    width: 100px;
+	height: 100px;
+	padding: 10px;
+	margin: 10px;
+    position:relative;
+}
+
 
 .img-certi {
 	width: 30px;
