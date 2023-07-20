@@ -20,6 +20,7 @@ body {
 .logo {
 	width: 200px;
 	height: 100px;
+	margin-bottom: 100px;
 	display: flex;
 	justify-content: flex-start;
 }
