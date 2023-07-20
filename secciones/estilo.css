@@ -9,7 +9,7 @@ body {
 
 
 .cabecera {
-	width: 95%;
+	width: auto;
 	max-width: 1960px;
 	margin: 0px 5px 0px 5px;
 	padding: 5px 5px 5px 5px;
@@ -43,7 +43,7 @@ body {
 .barranav {
 	width: auto;
 	height: auto;
-	margin: 50px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
 	padding: 0;
 }
 
