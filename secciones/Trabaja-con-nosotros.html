@@ -23,12 +23,12 @@
                 <li><a href="Presupuesto.html">Pedi un presupuesto</a></li>
             </ul>
         </nav>
+        <section class="titulo-cabecera">
+            <h1>Trabaja con nosotros</h1>
+        </section>
     </header>
-    <section class="titulo-cabecera">
-        <h1>Trabaja con nosotros</h1>
-    </section>
     <section class="contenedor-form">
-        <main class="formulario-cv" >
+        <main>
             <form class="row g-3" action="#" enctype="multipart/form-data" method="post">
             <div class="col-md-6">
                 <label class="form-label" for="nombre">Ingresa tu Nombre:</label>
@@ -38,7 +38,7 @@
                 <label class="form-label" for="apellido">Ingresa tu Apellido</label>
                 <input class="form-control" type="text" name="apellido" id="apellido" placeholder="Apellido">
             </div>
-            <div class="col-12">
+            <div class="col-md-6">
                 <label class="form-label" for="email">Correo Electronico</label>
                 <input class="form-control" type="text" name="email" id="email" placeholder="Correo Electronico">
             </div>
@@ -50,15 +50,15 @@
                 <label class="form-label" for="edad">Fecha de Nacimiento</label>
                 <input class="form-control" type="date" id="edad" name="edad">
             </div>
-            <div class="col-12">
+            <div class="col-md-6">
                 <label class="form-label" for="cuil">CUIL</label>
                 <input class="form-control" type="number" id="cuil" name="cuil" placeholder="11-11111111-1">
             </div>
-            <div class="col-12">
+            <div class="col-md-6">
                 <label class="form-label" for="tel">Telefono</label>
                 <input class="form-control" type="number" id="tel" name="tel" placeholder="11-1111-1111">
             </div>
-            <div class="col-12">
+            <div class="col-md-6">
                 <label class="form-label" for="nacionalidad">Nacionalidad</label>
                 <input class="form-control" type="text" id="nacionalidad" name="nacionalidad" placeholder="Pais de origen">
             </div>
@@ -66,7 +66,7 @@
                 <label class="form-label" for="domicilio">Domicilio Actual</label>
                 <input class="form-control" type="text" id="domicilio" name="domicilio" placeholder="Localidad - Calle - Numero de casa">
             </div>
-            <div class="col-12">
+            <div class="col-md-6">
                 <label class="form-label" for="codigopostal">Codigo Postal</label>
                 <input class="form-control" type="number" id="codigopostal" name="codigopostal" placeholder="Numero">
             </div>
@@ -78,11 +78,13 @@
             </form>
         </main>
     </section>
-    <a class="presupuesto2" href="./Presupuesto.html">
-        <img class="presupuesto" src="../imagenes/banner-solicitar-servicios3.jpg" alt="Solicita nuestros servicios.">
-    </a>
+    <section>
+        <a class="pedi-presupuesto" href="./Presupuesto.html">
+            <img src="../imagenes/banner-solicitar-servicios3.jpg" alt="Solicita nuestros servicios.">
+        </a>
+    </section>
     <footer>
-        <section class="">
+        <section>
             <a class="btn btn-primary" href="#comienzo">Ir al comienzo</a>
             <h4 class="coopyright">Coopyright Limpiamax SA</h4>
         </section>
