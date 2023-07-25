@@ -214,13 +214,33 @@ li a.active, li a:hover {
    PAGINA TRABAJA CON NOSOTROS
 */
 
+.formulario-layout {
+	
+}
 
 
 
 
 
+.titulo-formulario {
+	display: flex;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 45px;
+	color: rgb(85, 30, 8);
+	align-content: center;
+	justify-content: center;
+	padding: 10px 2px;
+	margin: 10px 0;
 
+}
 
+.link-presupuesto {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 250px;
+	height: 250px;
+}
 
 /*
 
@@ -333,7 +353,7 @@ li a.active, li a:hover {
 	#carouselExample {
 		display: none;
 	}
-	.titulo-cabecera {
+	.titulo-cabecera, .titulo-formulario {
 		font-size: 30px;
 	}
 	.subtitulo {
@@ -358,7 +378,7 @@ li a.active, li a:hover {
 	.img-cv {
 		display: none;
 	}
-	.titulo-cabecera {
+	.titulo-cabecera, .titulo-formulario {
 		font-size: 23px;
 	}
 	.subtitulo {
@@ -376,7 +396,7 @@ li a.active, li a:hover {
 }
 
 @media (max-width: 425px){
-	.titulo-cabecera {
+	.titulo-cabecera, .titulo-formulario {
 		font-size: 16px;
 		margin: 5px 10px;
 	}

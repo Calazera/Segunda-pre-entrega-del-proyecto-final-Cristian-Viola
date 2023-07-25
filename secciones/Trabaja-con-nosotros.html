@@ -5,38 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Trabaja con nosotros | Limpiamax</title>
     <link rel="shortcut icon" href="https://limpiolux.com.ar/wp-content/uploads/2015/08/favicon.png">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
-    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-    <header>
-<<<<<<< HEAD
-        <section class="container-fluid cabecera row">
-            <img id="comienzo" class="logo col" src="../imagenes/banner-empesa-B-01-600x300.jpg" alt="logo del sitio">
-            <img class="certificado col" src="../imagenes/logo-cert.png" alt="certificado tuvr">
-            <a href="../secciones/Trabaja-con-nosotros.html">
-                <img class="envianoscv col" src="../imagenes/busqueda laboral.jpg" alt="Envianos tu CurriculumVitae">
-            </a>
-=======
-        <section class="cabecera">
-            <img id="comienzo" class="logo" src="../imagenes/banner-empesa-B-01-600x300.jpg" alt="logo del sitio">
-            <img class="certificado" src="../css/estilo.css" alt="certificado tuvr">
->>>>>>> prod
-        </section>
-        <nav class="barranav container-fluid">
+    <header class="header-layout">
+        <nav class="nav-layout">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fi fi-br-menu-burger"></i>
+            </label>
+            <a href="#" id="comienzo" class="enlace-navbar">
+                <img class="logo-navbar" src="../imagenes/segurmania-orden-y-limpieza-seguridad.jpg" alt="logo de empresa certificada">
+            </a>                              
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="Quienes-somos.html">Quienes somos</a></li>
-                <li><a href="#">Trabaja con nosotros</a></li>
-                <li><a href="Beneficios.html">Beneficios</a></li>
-                <li><a href="Presupuesto.html">Pedi un presupuesto</a></li>
+                <li><a href="./secciones/Quienes-somos.html">Quienes somos</a></li>
+                <li><a class="active" href="#">Trabaja con nosotros</a></li>
+                <li><a href="./secciones/Beneficios.html">Beneficios</a></li>
+                <li><a href="./secciones/Presupuesto.html">Pedi un presupuesto</a></li>
             </ul>
         </nav>
-        <section>
-            <h1 class="titulo-cabecera">Trabaja con nosotros</h1>
-        </section>
+        <article class="article-layout">
+            <h1 class="titulo-formulario">Formulario de ingreso:</h1>
+        </article>
     </header>
-    <section class="contenedor-form container-fluid">
+    <div class="formulario-layout">
         <main>
             <form class="row g-3" action="#" enctype="multipart/form-data" method="post">
             <div class="col-md-6">
@@ -86,14 +81,14 @@
             </div>
             </form>
         </main>
-    </section>
-    <section class="container-fluid">
-        <a class="pedi-presupuesto img-fluid" href="./Presupuesto.html">
-            <img src="../imagenes/banner-solicitar-servicios3.jpg" alt="Solicita nuestros servicios.">
-        </a>
-    </section>
+    </div>
     <footer>
-        <section class="container-fluid">
+        <section class="">
+            <a class="link-presupuesto" href="./Presupuesto.html">
+                <img src="../imagenes/banner-solicitar-servicios3.jpg" alt="Solicita nuestros servicios.">
+            </a>
+        </section>
+        <section class="">
             <a class="btn btn-primary" href="#comienzo">Ir al comienzo</a>
             <h4 class="coopyright">Coopyright Limpiamax SA</h4>
         </section>
