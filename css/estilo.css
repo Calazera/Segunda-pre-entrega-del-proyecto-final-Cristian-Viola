@@ -162,8 +162,10 @@ li a.active, li a:hover {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	margin: 100px 0 100px 0;
+	margin: 100px 0 100px 100px;
 	padding: auto 0;
+	width: 250px; 
+	height: 100px;
 }
 
 .img-cv {
@@ -174,6 +176,8 @@ li a.active, li a:hover {
 	align-content: center;
 	margin: 100px 0 100px 0;
 	padding: auto 0;
+	width: 250px; 
+	height: 100px;
 }
 
 .btn {
@@ -295,8 +299,9 @@ li a.active, li a:hover {
 	justify-content: flex-end;
 	margin: 0px 0px 0px 300px;
 }
+*/
 
-@media (max-width: 952px){
+@media (max-width: 1190px){
 	.checkbtn {
 		display: block;
 	}
@@ -318,15 +323,70 @@ li a.active, li a:hover {
 		font-size: 20px;
 	}
 	li a:hover, li a.active {
-		background: none;
-		color: red;
+		background: rgb(88, 86, 86);
+		transition: 0.5s;
 	}
 	#check:checked ~ ul {
 		left: 0;
 		top: 140px;
 	}
 	#carouselExample {
+		display: none;
+	}
+	.titulo-cabecera {
+		font-size: 30px;
+	}
+	.subtitulo {
+		font-size: 20px;
+	}
+	.texto {
+		font-size: 15px;
+	}
 
+}
+
+@media (max-width: 860px){
+	.presupuesto {
+		margin: 100px 0 100px 0;	
 	}
 }
-*/
+
+@media (max-width: 650px){
+	.presupuesto {
+		display: none;
+	}
+	.img-cv {
+		display: none;
+	}
+	.titulo-cabecera {
+		font-size: 23px;
+	}
+	.subtitulo {
+		font-size: 16px;
+	}
+	.texto {
+		font-size: 10px;
+	}
+	.btn {
+		display: none;
+	}
+	.coopyright {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 425px){
+	.titulo-cabecera {
+		font-size: 16px;
+		margin: 5px 10px;
+	}
+	.subtitulo {
+		font-size: 16px;
+	}
+	.texto {
+		font-size: 10px;
+	}
+	.coopyright {
+		font-size: 16px;
+	}
+}
