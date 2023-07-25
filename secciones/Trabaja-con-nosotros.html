@@ -16,7 +16,7 @@
             <label for="check" class="checkbtn">
                 <i class="fi fi-br-menu-burger"></i>
             </label>
-            <a href="#" id="comienzo" class="enlace-navbar">
+            <a href="../index.html" id="comienzo" class="enlace-navbar">
                 <img class="logo-navbar" src="../imagenes/segurmania-orden-y-limpieza-seguridad.jpg" alt="logo de empresa certificada">
             </a>                              
             <ul>
@@ -31,67 +31,61 @@
             <h1 class="titulo-formulario">Formulario de ingreso:</h1>
         </article>
     </header>
-    <div class="formulario-layout">
-        <main>
-            <form class="row g-3" action="#" enctype="multipart/form-data" method="post">
-            <div class="col-md-6">
+    <main>
+        <form class="formulario-layout" action="#" enctype="multipart/form-data" method="post">
+            <div class="col-md-6 nombre">
                 <label class="form-label" for="nombre">Ingresa tu Nombre:</label>
                 <input class="form-control" type="text" id="nombre" name="nombre" placeholder="Nombre">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 apellido">
                 <label class="form-label" for="apellido">Ingresa tu Apellido</label>
                 <input class="form-control" type="text" name="apellido" id="apellido" placeholder="Apellido">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 correo">
                 <label class="form-label" for="email">Correo Electronico</label>
                 <input class="form-control" type="text" name="email" id="email" placeholder="Correo Electronico">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 dni">
                 <label class="form-label" for="dni">Número de Documento:</label>
                 <input class="form-control" type="number" name="dni" id="dni" placeholder="DNI">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 fecha">
                 <label class="form-label" for="edad">Fecha de Nacimiento</label>
                 <input class="form-control" type="date" id="edad" name="edad">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 cuil">
                 <label class="form-label" for="cuil">CUIL</label>
                 <input class="form-control" type="number" id="cuil" name="cuil" placeholder="11-11111111-1">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 telefono">
                 <label class="form-label" for="tel">Telefono</label>
                 <input class="form-control" type="number" id="tel" name="tel" placeholder="11-1111-1111">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 nacionalidad">
                 <label class="form-label" for="nacionalidad">Nacionalidad</label>
                 <input class="form-control" type="text" id="nacionalidad" name="nacionalidad" placeholder="Pais de origen">
             </div>
-            <div class="col-12">
+            <div class="col-12 domicilio">
                 <label class="form-label" for="domicilio">Domicilio Actual</label>
                 <input class="form-control" type="text" id="domicilio" name="domicilio" placeholder="Localidad - Calle - Numero de casa">
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 cod-postal">
                 <label class="form-label" for="codigopostal">Codigo Postal</label>
                 <input class="form-control" type="number" id="codigopostal" name="codigopostal" placeholder="Numero">
             </div>
-            <div class="col-md-6">
+            <div class="cv">
                 <label class="form-label" for="Cargarcv">Carga tu CurriculumVitae</label>
                 <input type="file" name="Cargarcv" id="Cargarcv">
+            </div>
+            <div class="boton">
                 <button type="submit" class="btn btn-success">Enviar</button>
             </div>
-            </form>
-        </main>
-    </div>
-    <footer>
-        <section class="">
-            <a class="link-presupuesto" href="./Presupuesto.html">
-                <img src="../imagenes/banner-solicitar-servicios3.jpg" alt="Solicita nuestros servicios.">
-            </a>
-        </section>
-        <section class="">
-            <a class="btn btn-primary" href="#comienzo">Ir al comienzo</a>
-            <h4 class="coopyright">Coopyright Limpiamax SA</h4>
-        </section>
+        </form>
+    </main>
+    <footer class="footer-layout">
+        <a class="link-presupuesto" href="./Presupuesto.html"><img src="../imagenes/banner-solicitar-servicios3.jpg" alt="Solicita nuestros servicios."></a>
+        <a class="btn btn-primary" href="#comienzo">Ir al comienzo</a>
+        <h4 class="coopyright">Coopyright Limpiamax SA</h4>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
