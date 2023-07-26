@@ -305,7 +305,6 @@ form .boton {
 /*
  PAGINA QUIENES SOMOS
 */
-
 .titulo-cabecera-card {
 	display: flex;
 	font-family: 'Times New Roman', Times, serif;
@@ -370,7 +369,9 @@ form .boton {
 	color: black;
 	text-decoration: underline;
 }
-
+/*
+ PAGINA BENEFICIOS
+*/
 .beneficio-layout {
 	display: grid;
 	grid-template-columns: auto auto;
@@ -401,33 +402,6 @@ form .boton {
 	grid-column: 1 / 3;
 	grid-row: 5 / 6;
 }
-/*
-
-.contenedor-beneficio {
-	width: 100%;
-	margin: 0px 5px 0px 120px;
-	padding: 5px 0px 5px 0px;
-	display: grid;
-	grid-template-columns: 1fr;	
-}
-
-.contenedor-trato {
-	width: 100%;
-	margin: 0px 5px 0px 120px;
-	padding: 5px 0px 5px 0px;
-	display: grid;
-	grid-template-columns: 1fr;
-	background-image: url("../imagenes/imagen7.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-
-.contenedor-cv {
-	display: flex;
-	justify-content: flex-end;
-	margin: 0px 0px 0px 300px;
-}
-*/
 
 @media (max-width: 1190px){
 	.checkbtn {
