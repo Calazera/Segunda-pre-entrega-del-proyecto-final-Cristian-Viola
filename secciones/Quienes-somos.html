@@ -5,75 +5,90 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quienes somos | Limpiamax</title>
     <link rel="shortcut icon" href="https://limpiolux.com.ar/wp-content/uploads/2015/08/favicon.png">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-    <header>
-        <section class="container-fluid cabecera row">
-            <img id="comienzo" class="logo col" src="../imagenes/banner-empesa-B-01-600x300.jpg" alt="logo del sitio">
-            <img id="" class="certificado col" src="../imagenes/logo-cert.png" alt="certificado tuvr">
-            <a href="./Trabaja-con-nosotros.html">
-                <img class="envianoscv col" src="../imagenes/busqueda laboral.jpg" alt="Envianos tu CurriculumVitae">
-            </a>
-        </section>
-        <nav class="barranav container-fluid">
+    <header class="header-layout">
+        <nav class="nav-layout">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fi fi-br-menu-burger"></i>
+            </label>
+            <a href="../index.html" id="comienzo" class="enlace-navbar">
+                <img class="logo-navbar" src="../imagenes/segurmania-orden-y-limpieza-seguridad.jpg" alt="logo de empresa certificada">
+            </a>                
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="#">Quienes somos</a></li>
-                <li><a href="./Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
-                <li><a href="./Beneficios.html">Beneficios</a></li>
-                <li><a href="./Presupuesto.html">Pedi un presupuesto</a></li>
+                <li><a class="active"  href="#">Quienes somos</a></li>
+                <li><a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
+                <li><a href="Beneficios.html">Beneficios</a></li>
+                <li><a href="Presupuesto.html">Pedi un presupuesto</a></li>
             </ul>
         </nav>
-    </header>
-    <section class="container-fluid row">
-        <article>
+        <article class="article-layout">
             <h1 class="titulo-cabecera">Quienes somos:</h1>
+        </article>
+    </header>
+    <section class="historia-layout">
+        <article class="historia-art1">
             <h2 class="subtitulo">Limpiamax</h2>
-            <p class="texto-historia">Somos una organización de origen familiar y de capital 100 % argentino que ofrece servicios de Facility para empresas y organizaciones. Desde 1966, nuestro objetivo es brindar asesoramiento integral y directo a nuestros clientes, a través de un servicio de calidad, con amplia trayectoria y experiencia en el negocio. Logramos que las organizaciones puedan concentrarse en su negocio principal mientras delegan en nosotros, todas sus necesidades de mantenimiento, higiene ambiental e insumos profesionales de Limpieza. Aportamos conocimiento, responsabilidad y expertise a su empresa, con un servicio a medida, flexible y diseñado de acuerdo a sus requerimientos. Somos miembro fundador de la Asociación de Empresas de Limpieza de la República Argentina (ADEL) y estamos asociados a la World Federation of Building Service Contractors (WFBSC).</p>
-            <h2 class="titulo-cabecera">Servicios que ofrecemos</h2>
-            <h4 class="subtitulo">Mantenimiento Edilicio:</h4>
-            <ul class="texto-lista">
-                <li>Mantenimiento Predictivo, Preventivo y Correctivo.</li>
-                <li>Ejecución de Obras y Asistencia en Proyectos.</li>
-                <li>Sistemas de ventilación, calefacción y aire acondicionado.</li>
-                <li>Sistemas eléctricos, iluminación y de emergencia.</li>
-                <li>Sistemas de alarmas.</li>
-                <li>Mantenimiento básico edilicio (Pintura, Albañilería, Plomería, Cerrajería, Carpintería, Herrería, Vidrios, Cielorrasos, Techos).</li>
-            </ul>
-            <h4 class="subtitulo">Seguridad e Higiene:</h4>
-            <ul class="texto-lista">
-                <li>Higiene Ambiental.</li>
-                <li>Limpieza Técnica.</li>
-                <li>Limpieza de vidrios en altura.</li>
-                <li>Limpieza gruesa y fina de obra.</li>
-            </ul>
-            <h4 class="subtitulo">Insumos para Higiene Profesional:</h4>
-            <ul class="texto-lista">
-                <li>Químicos de limpieza.</li>
-                <li>Carros y contenedores.</li>
-                <li>Insumos para baños.</li>
-                <li>Protección y seguridad.</li>
-                <li>Limpiamiento en pasta.</li>
-                <li>Cepillaría Sanitaria.</li>
-                <li>Paños para limpieza.</li>
-            </ul>
+            <p class="texto-historia">Somos una organización de origen familiar y de capital 100 % argentino que ofrece servicios de Facility para empresas y organizaciones.</p>
+            <p class="texto-historia">Desde 1966, nuestro objetivo es brindar asesoramiento integral y directo a nuestros clientes, a través de un servicio de calidad, con amplia trayectoria y experiencia en el negocio. Logramos que las organizaciones puedan concentrarse en su negocio principal mientras delegan en nosotros, todas sus necesidades de mantenimiento, higiene ambiental e insumos profesionales de Limpieza. Aportamos conocimiento, responsabilidad y expertise a su empresa, con un servicio a medida, flexible y diseñado de acuerdo a sus requerimientos. Somos miembro fundador de la Asociación de Empresas de Limpieza de la República Argentina (ADEL) y estamos asociados a la World Federation of Building Service Contractors (WFBSC).</p>
         </article>
-        <article class="enlaces container">
-            <a class="presupuesto img-fluid" href="./Presupuesto.html">
-                <img src="../imagenes/banner-solicitar-servicios3.jpg" alt="Solicita nuestros servicios.">
-            </a>
-            <a class="img-cv img-fluid" href="Trabaja-con-nosotros.html">
-                <img src="../imagenes/envianoscv.png" alt="Envianos tu CurriculumVitae">
-            </a>
+        <article class="historia-art2">
+            <h2 class="titulo-cabecera-card">Servicios que ofrecemos</h2>
         </article>
+        <div class="card-group">
+            <div class="card">
+                <img src="../imagenes/limpieza-integral-galeria6.webp" class="card-img-top" alt="limpieza edilicia" width="550px" height="400px">
+                <div class="card-body">
+                    <h5 class="subtitulo-lista">Mantenimiento Edilicio</h5>
+                    <ul class="texto-lista">
+                        <li>Mantenimiento Predictivo, Preventivo y Correctivo.</li>
+                        <li>Ejecución de Obras y Asistencia en Proyectos.</li>
+                        <li>Sistemas de ventilación, calefacción y aire acondicionado.</li>
+                        <li>Sistemas eléctricos, iluminación y de emergencia.</li>
+                        <li>Sistemas de alarmas.</li>
+                        <li>Mantenimiento básico edilicio (Pintura, Albañilería, Plomería, Cerrajería, Carpintería, Herrería, Vidrios, Cielorrasos, Techos).</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../imagenes/istockphoto-1248761294-612x612.jpg" class="card-img-top" alt="seguridad e higiene" width="550px" height="400px">
+                <div class="card-body">
+                    <h5 class="subtitulo-lista">Seguridad e Higiene</h5>
+                    <ul class="texto-lista">
+                        <li>Higiene Ambiental.</li>
+                        <li>Limpieza Técnica.</li>
+                        <li>Limpieza de vidrios en altura.</li>
+                        <li>Limpieza gruesa y fina de obra.</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="card">
+                <img src="../imagenes/GettyImages-1031043754-1.jpg" class="card-img-top" alt="" width="550px" height="400px">
+                <div class="card-body">
+                    <h5 class="subtitulo-lista">Insumos para Higiene Profesional</h5>
+                    <ul class="texto-lista">
+                        <li>Químicos de limpieza.</li>
+                        <li>Carros y contenedores.</li>
+                        <li>Insumos para baños.</li>
+                        <li>Protección y seguridad.</li>
+                        <li>Limpiamiento en pasta.</li>
+                        <li>Cepillaría Sanitaria.</li>
+                        <li>Paños para limpieza.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
-    <footer>
-        <section class="container-fluid">
-		    <a class="btn btn-primary" href="#comienzo">Ir al comienzo</a>
-            <h4 class="coopyright">Coopyright Limpiamax SA</h4>
-        </section>
+    <footer class="footer-layout">
+        <a class="presupuesto" href="Presupuesto.html"><img src="../imagenes/banner-solicitar-servicios3.jpg" alt="Solicita nuestros servicios."></a>
+        <a class="img-cv" href="Trabaja-con-nosotros.html"><img src="../imagenes/envianoscv.png" alt="Envianos tu CurriculumVitae"></a>
+        <a class="btn btn-primary" href="#comienzo">Ir al comienzo</a>
+        <h4 class="coopyright">Coopyright Limpiamax SA</h4>
 	</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>

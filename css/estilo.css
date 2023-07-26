@@ -208,11 +208,9 @@ li a.active, li a:hover {
 	font-family: 'Courier New', Courier, monospace;
 	padding: 15px;
 }
-
 /*
    PAGINA TRABAJA CON NOSOTROS
 */
-
 .formulario-layout {
 	display: grid;
 	grid-template-columns: 40% 20% 40%;
@@ -294,9 +292,6 @@ form .boton {
 	height: 100px;
 }
 
-
-
-
 .titulo-formulario {
 	display: flex;
 	font-family: 'Times New Roman', Times, serif;
@@ -306,57 +301,76 @@ form .boton {
 	justify-content: center;
 	padding: 10px 2px;
 	margin: 10px 0;
-
 }
-
-
 /*
+ PAGINA QUIENES SOMOS
+*/
 
-.formulario-cv {
-	background-color: antiquewhite;
+.titulo-cabecera-card {
 	display: flex;
-	width: auto;
-	height: auto;
-}
-
-.contenedor-form {
-	width: 100%;
-	margin: 0px 5px 0px 200px;
-	padding: 5px 5px 5px 5px;
-	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.texto-lista {
 	font-family: 'Times New Roman', Times, serif;
-	font-size: 20px;
-	list-style:none;
-	color: black;
-	margin: 2px 5px 40px 60px;
-	padding: 5px;
-	text-decoration: none;
+	font-size: 40px;
+	color: rgb(85, 30, 8);
+	align-content: center;
+	justify-content: center;
+	padding: 10px 2px;
+	margin: 30px 0;
+	background-color: antiquewhite;
 }
 
-.contenedor-historia {
-	width: 100%;
-	margin: 0px 5px 0px 20px;
-	padding: 5px 0px 5px 0px;
+.card-body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black;
+	background-color: aliceblue;
+}
+
+.card-img {
+	background: antiquewhite;
+}
+
+.historia-layout {
 	display: grid;
-	grid-template-columns: 1fr;
-	background-image: url("../imagenes/quienessomos-personal600x400.jpg");
-	background-size: contain;
-	background-repeat: no-repeat;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto auto;
+}
+
+.historia-art1 {
+	grid-column: 1 / 4;
+	grid-row: 1 / 2;	
+}
+
+.historia-art2 {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;	
+}
+
+.card-group {
+	grid-column: 1 / 4;
+	grid-row: 3 / 4;
 }
 
 .texto-historia {
 	font-family: 'Times New Roman', Times, serif;
 	font-size: 20px;
-	width: 90%;
 	color: black;
-	margin: 0px 0px 40px 20px;
-	padding: 5px;
+	margin: 0 40px 0 40px;
 	text-decoration: none;
 }
+
+.texto-lista {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+	color: black;
+	text-align: start;
+}
+
+.subtitulo-lista {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: black;
+	text-decoration: underline;
+}
+/*
 
 .contenedor-beneficio {
 	width: 100%;
@@ -375,11 +389,6 @@ form .boton {
 	background-image: url("../imagenes/imagen7.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
-}
-
-.margen {
-	margin: 50px 0;
-	padding: 10px 10px 10px 10px;
 }
 
 .contenedor-cv {
@@ -421,14 +430,14 @@ form .boton {
 	#carouselExample {
 		display: none;
 	}
-	.titulo-cabecera, .titulo-formulario {
+	.titulo-cabecera, .titulo-formulario, .titulo-cabecera-card {
 		font-size: 30px;
 	}
-	.subtitulo {
+	.subtitulo, .subtitulo-lista {
 		font-size: 20px;
 	}
-	.texto {
-		font-size: 15px;
+	.texto, .texto-historia, .texto-lista {
+		font-size: 13px;
 	}
 	form {
 		font-size: 15px;
@@ -444,7 +453,7 @@ form .boton {
 	.presupuesto {
 		margin: 100px 0 100px 0;
 	}
-	.titulo-cabecera, .titulo-formulario {
+	.titulo-cabecera, .titulo-formulario, .titulo-cabecera-card {
 		font-size: 25px;
 	}
 	.subtitulo {
@@ -473,7 +482,7 @@ form .boton {
 	.presupuesto, .link-presupuesto, .img-cv{
 		display: none;
 	}
-	.titulo-cabecera, .titulo-formulario {
+	.titulo-cabecera, .titulo-formulario, .titulo-cabecera-card {
 		font-size: 23px;
 	}
 	.subtitulo {
@@ -482,13 +491,18 @@ form .boton {
 	.texto {
 		font-size: 10px;
 	}
-	
 	.coopyright {
 		font-size: 16px;
 	}
 	form {
 		font-size: 12px;
 		text-align: center;
+	}
+}
+
+@media (max-width: 491px){
+	.titulo-cabecera-card {
+		font-size: 18px;
 	}
 }
 
@@ -504,6 +518,9 @@ form .boton {
 		font-size: 10px;
 	}
 	.coopyright {
+		font-size: 16px;
+	}
+	.titulo-cabecera-card {
 		font-size: 16px;
 	}
 }
