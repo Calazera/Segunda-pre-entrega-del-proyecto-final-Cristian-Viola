@@ -5,31 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Presupuesto | Limpiamax</title>
     <link rel="shortcut icon" href="https://limpiolux.com.ar/wp-content/uploads/2015/08/favicon.png">
+    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/uicons-bold-rounded/css/uicons-bold-rounded.css'>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/estilo.css">
 </head>
 <body>
-    <header>
-        <section class="container-fluid cabecera row">
-            <img id="comienzo" class="logo col" src="../imagenes/banner-empesa-B-01-600x300.jpg" alt="logo del sitio">
-            <img class="certificado col" src="../imagenes/logo-cert.png" alt="certificado tuvr">
-            <a href="./Trabaja-con-nosotros.html">
-                <img class="envianoscv col" src="../imagenes/busqueda laboral.jpg" alt="Envianos tu CurriculumVitae">
-            </a>
-        </section>
-        <nav class="barranav container-fluid">
+    <header class="header-layout">
+        <nav class="nav-layout">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fi fi-br-menu-burger"></i>
+            </label>
+            <a href="../index.html" id="comienzo" class="enlace-navbar">
+                <img class="logo-navbar" src="../imagenes/segurmania-orden-y-limpieza-seguridad.jpg" alt="logo de empresa certificada">
+            </a>                
             <ul>
                 <li><a href="../index.html">Home</a></li>
-                <li><a href="./Quienes-somos.html">Quienes somos</a></li>
-                <li><a href="./Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
-                <li><a href="./Beneficios.html">Beneficios</a></li>
-                <li><a href="#">Pedi un presupuesto</a></li>
+                <li><a href="Quienes-somos.html">Quienes somos</a></li>
+                <li><a href="Trabaja-con-nosotros.html">Trabaja con nosotros</a></li>
+                <li><a href="Beneficios.html">Beneficios</a></li>
+                <li><a class="active" href="#">Pedi un presupuesto</a></li>
             </ul>
         </nav>
-        <section class="container">
-            <h1 class="titulo-cabecera">Solicitar cotización</h1>
-            <h2 class="texto-lista">Limpiolux ofrece soluciones de Facility para su empresa u organización. Brindamos servicios profesionales de limpieza y mantenimiento para todas las industrias. Contamos con más de 50 años de trayectoria facilitando respuestas integrales a nuestros clientes.</h2>
-        </section>
+        <article class="article-layout">
+            <h1 class="titulo-cabecera">Pedi un presupuesto</h1>
+        </article>
     </header>
     <section class="contenedor-form container">
         <main>
@@ -62,16 +62,10 @@
             </form>
         </main>
     </section>
-    <section class="contenedor-cv container-fluid">    
-        <a class="img-cv img-fluid" href="Trabaja-con-nosotros.html">
-        <img src="../imagenes/envianoscv.png" alt="Envianos tu CurriculumVitae">
-        </a>
-    </section>
-    <footer>
-        <section class="container-fluid">
-            <a class="btn btn-primary" href="#comienzo">Ir al comienzo</a>
-            <h4 class="coopyright">Coopyright Limpiamax SA</h4>
-        </section>
+    <footer class="footer-layout">
+        <a class="img-cv" href="Trabaja-con-nosotros.html"><img src="../imagenes/envianoscv.png" alt="Envianos tu CurriculumVitae"></a>
+        <a class="btn btn-primary" href="#comienzo">Ir al comienzo</a>
+        <h4 class="coopyright">Coopyright Limpiamax SA</h4>
 	</footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
