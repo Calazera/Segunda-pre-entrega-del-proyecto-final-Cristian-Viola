@@ -1,0 +1,22 @@
+{
+  "name": "segunda-pre-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Calazera/Segunda-pre-entrega-del-proyecto-final-Cristian-Viola.git"
+  },
+  "author": "Cristian Viola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Calazera/Segunda-pre-entrega-del-proyecto-final-Cristian-Viola/issues"
+  },
+  "homepage": "https://github.com/Calazera/Segunda-pre-entrega-del-proyecto-final-Cristian-Viola#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.1"
+  }
+}

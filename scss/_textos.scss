@@ -1,0 +1,65 @@
+.titulo-cabecera {
+	display: flex;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: rgb(85, 30, 8);
+	align-content: center;
+	justify-content: center;
+	padding: 10px 2px;
+}
+.subtitulo {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 30px;
+	color: rgb(85, 30, 8);
+	text-align: start;
+	text-decoration: underline;
+	margin: 40px 20px 5px 20px;
+	padding: 5px;
+}
+.texto {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: black;
+	text-align: start;
+	margin: 5px 10px 40px 40px;
+}
+.titulo-formulario {
+	display: flex;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 45px;
+	color: rgb(85, 30, 8);
+	align-content: center;
+	justify-content: center;
+	padding: 10px 2px;
+	margin: 10px 0;
+}
+.titulo-cabecera-card {
+	display: flex;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 40px;
+	color: rgb(85, 30, 8);
+	align-content: center;
+	justify-content: center;
+	padding: 10px 2px;
+	margin: 30px 0;
+	background-color: antiquewhite;
+}
+.texto-historia {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	color: black;
+	margin: 0 40px 0 40px;
+	text-decoration: none;
+}
+.texto-lista {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+	color: black;
+	text-align: start;
+}
+.subtitulo-lista {
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	color: black;
+	text-decoration: underline;
+}

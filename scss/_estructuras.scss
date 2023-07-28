@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	box-sizing: border-box;
+}
+body {
+	background-color: antiquewhite;
+	color: rgb(85, 30, 8);
+	font-family: 'Times New Roman', Times, serif;
+	padding: 0;
+	margin: 0;
+}
+nav {
+	background: cadetblue;
+	height: 100%;
+	width: 100%;
+	position: relative;
+    ul {
+        float: right;
+        margin-right: 20px;
+        li {
+            display: inline-block;
+            line-height: 140px;
+            margin: 0 5px;
+            a {
+                color: white;
+                font-size: 18px;
+                padding: 7px 13px;
+                border-radius: 3px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+            &active{
+                background: rgb(88, 86, 86);
+	            transition: 0.5s;
+            }
+            &hover{
+                background: rgb(88, 86, 86);
+	            transition: 0.5s;
+            }
+        }
+    }
+}
+.enlace-navbar {
+	position: absolute;
+	padding: 20px 50px;
+}
+.presupuesto {
+	grid-column: 1 / 2;
+	grid-row: 1 / 2;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 100px 0 100px 100px;
+	padding: auto 0;
+	width: 250px; 
+	height: 100px;
+}
+.img-cv {
+	grid-column: 3 / 4;
+	grid-row: 1 / 2;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 100px 0 100px 0;
+	padding: auto 0;
+	width: 250px; 
+	height: 100px;
+}
+.coopyright {
+	grid-column: 1 / 4;
+	grid-row: 3 / 4;
+	border: 3px black;
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	line-height: 50px;
+	background-color: cadetblue;
+	margin: 20px 0 0 0;
+	text-transform: initial;
+	text-decoration:underline;
+	text-align:center;
+	color: #fff;
+	font-family: 'Courier New', Courier, monospace;
+	padding: 15px;
+}
+.link-presupuesto {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	margin: 100px 0 100px 0;
+	width: 250px; 
+	height: 100px;
+}
+.card-body {
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: black;
+	background-color: aliceblue;
+}
+.card-group {
+	grid-column: 1 / 4;
+	grid-row: 3 / 4;
+}

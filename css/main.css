@@ -1,0 +1,521 @@
+.header-layout {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 140px 100px auto;
+  justify-content: center;
+  align-content: center;
+}
+
+.nav-layout {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.article-layout {
+  grid-column: 1/4;
+  grid-row: 2/3;
+}
+
+.carousel-layout {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.section-layout {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-content: center;
+  align-content: center;
+}
+
+.grid-art1 {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.grid-art2 {
+  grid-column: 1/4;
+  grid-row: 2/4;
+}
+
+.grid-art3 {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.footer-layout {
+  background-color: antiquewhite;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 200px 100px 100px;
+}
+
+.formulario-layout {
+  display: grid;
+  grid-template-columns: 40% 20% 40%;
+  grid-template-rows: 18% 18% 18% 18% 18% 18% auto;
+  margin: 30px 30px;
+  padding: 10px;
+}
+
+form .nombre {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
+form .apellido {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+form .correo {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+
+form .dni {
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+
+form .fecha {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+
+form .cuil {
+  grid-column: 3/4;
+  grid-row: 3/4;
+}
+
+form .telefono {
+  grid-column: 1/2;
+  grid-row: 4/5;
+}
+
+form .nacionalidad {
+  grid-column: 3/4;
+  grid-row: 4/5;
+}
+
+form .domicilio {
+  grid-column: 1/2;
+  grid-row: 5/6;
+}
+
+form .cod-postal {
+  grid-column: 3/4;
+  grid-row: 5/6;
+}
+
+form .cv {
+  grid-column: 1/4;
+  grid-row: 6/7;
+  display: flex;
+  justify-content: center;
+  align-content: space-around;
+}
+
+form .boton {
+  grid-column: 1/4;
+  grid-row: 7/8;
+}
+
+.historia-layout {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+}
+
+.historia-art1 {
+  grid-column: 1/4;
+  grid-row: 1/2;
+}
+
+.historia-art2 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.beneficio-layout {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto auto;
+}
+
+.beneficio-art1 {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.beneficio-art2 {
+  grid-column: 1/3;
+  grid-row: 2/3;
+}
+
+.beneficio-art3 {
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+
+.beneficio-art4 {
+  grid-column: 1/3;
+  grid-row: 4/5;
+}
+
+.beneficio-art5 {
+  grid-column: 1/3;
+  grid-row: 5/6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+  color: rgb(85, 30, 8);
+  font-family: "Times New Roman", Times, serif;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  background: cadetblue;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+nav ul {
+  float: right;
+  margin-right: 20px;
+}
+nav ul li {
+  display: inline-block;
+  line-height: 140px;
+  margin: 0 5px;
+}
+nav ul li a {
+  color: white;
+  font-size: 18px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+nav ul liactive {
+  background: rgb(88, 86, 86);
+  transition: 0.5s;
+}
+nav ul lihover {
+  background: rgb(88, 86, 86);
+  transition: 0.5s;
+}
+
+.enlace-navbar {
+  position: absolute;
+  padding: 20px 50px;
+}
+
+.presupuesto {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 100px 0 100px 100px;
+  padding: auto 0;
+  width: 250px;
+  height: 100px;
+}
+
+.img-cv {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 100px 0 100px 0;
+  padding: auto 0;
+  width: 250px;
+  height: 100px;
+}
+
+.coopyright {
+  grid-column: 1/4;
+  grid-row: 3/4;
+  border: 3px black;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  line-height: 50px;
+  background-color: cadetblue;
+  margin: 20px 0 0 0;
+  text-transform: initial;
+  text-decoration: underline;
+  text-align: center;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  padding: 15px;
+}
+
+.link-presupuesto {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: 100px 0 100px 0;
+  width: 250px;
+  height: 100px;
+}
+
+.card-body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  background-color: aliceblue;
+}
+
+.card-group {
+  grid-column: 1/4;
+  grid-row: 3/4;
+}
+
+.titulo-cabecera {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: rgb(85, 30, 8);
+  align-content: center;
+  justify-content: center;
+  padding: 10px 2px;
+}
+
+.subtitulo {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  color: rgb(85, 30, 8);
+  text-align: start;
+  text-decoration: underline;
+  margin: 40px 20px 5px 20px;
+  padding: 5px;
+}
+
+.texto {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+  text-align: start;
+  margin: 5px 10px 40px 40px;
+}
+
+.titulo-formulario {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 45px;
+  color: rgb(85, 30, 8);
+  align-content: center;
+  justify-content: center;
+  padding: 10px 2px;
+  margin: 10px 0;
+}
+
+.titulo-cabecera-card {
+  display: flex;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+  color: rgb(85, 30, 8);
+  align-content: center;
+  justify-content: center;
+  padding: 10px 2px;
+  margin: 30px 0;
+  background-color: antiquewhite;
+}
+
+.texto-historia {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+  margin: 0 40px 0 40px;
+  text-decoration: none;
+}
+
+.texto-lista {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 15px;
+  color: black;
+  text-align: start;
+}
+
+.subtitulo-lista {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 25px;
+  color: black;
+  text-decoration: underline;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: #fff;
+  float: right;
+  line-height: 140px;
+  margin-right: 40px;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+.btn {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  padding: auto 0;
+  width: 150px;
+  height: 50px;
+}
+
+.logo-navbar {
+  height: 100px;
+  background: cadetblue;
+}
+
+.card-img {
+  background: antiquewhite;
+}
+
+@media (max-width: 1190px) {
+  .checkbtn {
+    display: block;
+  }
+  ul {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #2c3e50;
+    top: 80px;
+    left: 100%;
+    text-align: center;
+  }
+  nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a {
+    font-size: 20px;
+  }
+  li a:hover, li a.active {
+    background: rgb(88, 86, 86);
+    transition: 0.5s;
+  }
+  #check:checked ~ ul {
+    left: 0;
+    top: 140px;
+  }
+  #carouselExample {
+    display: none;
+  }
+  .titulo-cabecera, .titulo-formulario, .titulo-cabecera-card {
+    font-size: 30px;
+  }
+  .subtitulo, .subtitulo-lista {
+    font-size: 20px;
+  }
+  .texto, .texto-historia, .texto-lista {
+    font-size: 13px;
+  }
+  form {
+    font-size: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5px;
+  }
+}
+@media (max-width: 860px) {
+  .presupuesto {
+    margin: 100px 0 100px 0;
+  }
+  .titulo-cabecera, .titulo-formulario, .titulo-cabecera-card {
+    font-size: 25px;
+  }
+  .subtitulo {
+    font-size: 18px;
+  }
+  .texto {
+    font-size: 13px;
+  }
+}
+@media (max-width: 794px) {
+  .formulario-layout {
+    margin: 0;
+    padding: 10px;
+  }
+  .cv {
+    width: 100%;
+  }
+  form {
+    font-size: 16px;
+    text-align: center;
+  }
+}
+@media (max-width: 652px) {
+  .presupuesto, .link-presupuesto, .img-cv {
+    display: none;
+  }
+  .titulo-cabecera, .titulo-formulario, .titulo-cabecera-card {
+    font-size: 23px;
+  }
+  .subtitulo {
+    font-size: 16px;
+  }
+  .texto {
+    font-size: 10px;
+  }
+  .coopyright {
+    font-size: 16px;
+  }
+  form {
+    font-size: 12px;
+    text-align: center;
+  }
+}
+@media (max-width: 491px) {
+  .titulo-cabecera-card {
+    font-size: 18px;
+  }
+}
+@media (max-width: 425px) {
+  .titulo-cabecera, .titulo-formulario {
+    font-size: 16px;
+    margin: 5px 10px;
+  }
+  .subtitulo {
+    font-size: 16px;
+  }
+  .texto {
+    font-size: 10px;
+  }
+  .coopyright {
+    font-size: 16px;
+  }
+  .titulo-cabecera-card {
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
