@@ -1,5 +1,5 @@
 .header-layout {
-	background-color: antiquewhite;
+	background-color: $color-fondo-primario;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-rows: 140px 100px auto;
@@ -19,7 +19,7 @@
 	grid-row: 3 / 4;
 }
 .section-layout {
-	background-color: antiquewhite;
+	background-color: $color-fondo-primario;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
@@ -39,7 +39,7 @@
 	grid-row: 3 / 4;
 }
 .footer-layout {
-	background-color: antiquewhite;
+	background-color: $color-fondo-primario;
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-template-rows: 200px 100px 100px;

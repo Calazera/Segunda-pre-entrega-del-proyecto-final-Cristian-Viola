@@ -1,33 +1,33 @@
 .titulo-cabecera {
 	display: flex;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: $fuente-primaria;
 	font-size: 40px;
-	color: rgb(85, 30, 8);
+	color: $color-primario;
 	align-content: center;
 	justify-content: center;
 	padding: 10px 2px;
 }
 .subtitulo {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: $fuente-primaria;
 	font-size: 30px;
-	color: rgb(85, 30, 8);
+	color: $color-primario;
 	text-align: start;
 	text-decoration: underline;
 	margin: 40px 20px 5px 20px;
 	padding: 5px;
 }
 .texto {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: $fuente-primaria;
 	font-size: 20px;
-	color: black;
+	color: $color-negro;
 	text-align: start;
 	margin: 5px 10px 40px 40px;
 }
 .titulo-formulario {
 	display: flex;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: $fuente-primaria;
 	font-size: 45px;
-	color: rgb(85, 30, 8);
+	color: $color-primario;
 	align-content: center;
 	justify-content: center;
 	padding: 10px 2px;
@@ -35,31 +35,31 @@
 }
 .titulo-cabecera-card {
 	display: flex;
-	font-family: 'Times New Roman', Times, serif;
+	font-family: $fuente-primaria;
 	font-size: 40px;
-	color: rgb(85, 30, 8);
+	color: $color-primario;
 	align-content: center;
 	justify-content: center;
 	padding: 10px 2px;
 	margin: 30px 0;
-	background-color: antiquewhite;
+	background-color: $color-fondo-primario;
 }
 .texto-historia {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: $fuente-primaria;
 	font-size: 20px;
-	color: black;
+	color: $color-negro;
 	margin: 0 40px 0 40px;
 	text-decoration: none;
 }
 .texto-lista {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: $fuente-primaria;
 	font-size: 15px;
-	color: black;
+	color: $color-negro;
 	text-align: start;
 }
 .subtitulo-lista {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: $fuente-primaria;
 	font-size: 25px;
-	color: black;
+	color: $color-negro;
 	text-decoration: underline;
 }

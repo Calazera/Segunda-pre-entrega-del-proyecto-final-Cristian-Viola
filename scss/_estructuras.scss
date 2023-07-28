@@ -6,14 +6,14 @@
 	box-sizing: border-box;
 }
 body {
-	background-color: antiquewhite;
-	color: rgb(85, 30, 8);
-	font-family: 'Times New Roman', Times, serif;
+	background-color: $color-fondo-primario;
+	color: $color-primario;
+	font-family: $fuente-primaria;
 	padding: 0;
 	margin: 0;
 }
 nav {
-	background: cadetblue;
+	background: $color-fondo-secundario;
 	height: 100%;
 	width: 100%;
 	position: relative;
@@ -25,7 +25,7 @@ nav {
             line-height: 140px;
             margin: 0 5px;
             a {
-                color: white;
+                color: $color-blanco;
                 font-size: 18px;
                 padding: 7px 13px;
                 border-radius: 3px;
@@ -33,11 +33,11 @@ nav {
                 text-decoration: none;
             }
             &active{
-                background: rgb(88, 86, 86);
+                background: $color-gris;
 	            transition: 0.5s;
             }
             &hover{
-                background: rgb(88, 86, 86);
+                background: $color-gris;
 	            transition: 0.5s;
             }
         }
@@ -72,18 +72,18 @@ nav {
 .coopyright {
 	grid-column: 1 / 4;
 	grid-row: 3 / 4;
-	border: 3px black;
+	border: 3px $color-negro;
 	display: flex;
 	align-content: center;
 	justify-content: center;
 	line-height: 50px;
-	background-color: cadetblue;
+	background-color: $color-fondo-secundario;
 	margin: 20px 0 0 0;
 	text-transform: initial;
 	text-decoration:underline;
 	text-align:center;
-	color: #fff;
-	font-family: 'Courier New', Courier, monospace;
+	color: $color-blanco;
+	font-family: $fuente-secundaria;
 	padding: 15px;
 }
 .link-presupuesto {
@@ -97,9 +97,9 @@ nav {
 	height: 100px;
 }
 .card-body {
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-	color: black;
-	background-color: aliceblue;
+	font-family: $fuente-alternativa;
+	color: $color-negro;
+	background-color: $color-fondo-terciario;
 }
 .card-group {
 	grid-column: 1 / 4;
